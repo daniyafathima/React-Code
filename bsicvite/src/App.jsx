@@ -1,10 +1,12 @@
 import Hello from './hello';
 
 function App() {
+const username="Daniya"
+
   return (
     <>
       <Hello />
-    <p>Test para</p>
+    <p>Test para {username}</p>
     </>
     
   );

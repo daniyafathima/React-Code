@@ -8,6 +8,7 @@ function MyApp(){
     <div>
       <h1>Custom App!!</h1>
     </div>
+
   )
 }
 
@@ -24,17 +25,17 @@ function MyApp(){
 //   <a href="https://google.com" target="_blank">Visit Google</a>
 // ) this cant be used because becuase the variable cant be used directly
 
-const newReactElement=React.createElement(
-'a',
-  {href:'https://google.com',target: '_blank'},
-  'Click Meee'
-)
+// const newReactElement=React.createElement(
+// 'a',
+//   {href:'https://google.com',target: '_blank'},
+//   'Click Meee'
+// )
   
 
 
 createRoot(document.getElementById('root')).render(
   
-  newReactElement
+  <App />
     
   
 )
